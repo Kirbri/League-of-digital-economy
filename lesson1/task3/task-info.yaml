@@ -3,24 +3,24 @@ files:
 - name: src/Task.java
   visible: true
   placeholders:
-  - offset: 256
-    length: 10
+  - offset: 390
+    length: 52
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 256
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: new Task("Jon", "Snow", 23, "To protect the Wall");
-  - offset: 323
-    length: 10
+  - offset: 496
+    length: 0
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 323
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |2-
        public Task(String name, String surname, int age, String description) {

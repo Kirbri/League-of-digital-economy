@@ -1,19 +1,24 @@
-import com.sun.imageio.plugins.jpeg.JPEGImageReaderResources;
-
 public class Task {
     private String name;
     private String surname;
     private int age;
     private String description;
 
+    Task(String name, String surname, int age, String description){
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+        this.description = description;
+    }
+
 
     public static void main(String[] args) {
-        Task task = /* TODO */
+        Task task = new Task("Ann", "Kornilova", 22, "it is necessary");
 
         System.out.println(task.toString());
     }
 
-   /* TODO */
+
 
     @Override
     public String toString() {
@@ -21,4 +26,6 @@ public class Task {
                 + "I learn Java because " + description;
 
     }
+
+
 }
